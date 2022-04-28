@@ -1,0 +1,41 @@
+﻿<Window x:Class="GsbRapports.modifierVisiteursWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GsbRapports"
+        mc:Ignorable="d"
+        Title="modifierVisiteursWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBlock x:Name="txtLibVisiteurs" Margin="50,0,0,0" />
+            </StackPanel>
+            <ComboBox x:Name="cmbVisiteur" Margin="50,50,647.333,50" Height="27" RenderTransformOrigin="0.5,0.5">
+                <ComboBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.174"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ComboBox.RenderTransform>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel Margin="230,98,119.333,146.667">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Ville" Width="55" Height="21" />
+                <TextBox x:Name="txtVilleVisiteur" Width="121" Height="22" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding ville}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Adresse" Width="51" />
+                <TextBox x:Name="txtAdresseVisiteur" Width="122" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding adresse}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Code postale" Width="76" />
+                <TextBox x:Name="txtCpVisiteur" Width="96" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding cp}"/>
+            </StackPanel>
+            <Button x:Name="btnValider" Content="Valider" Width="100" Click="btnValider_Click" Margin="100,10"/>
+        </StackPanel>
+    </Grid>
+</Window>
