@@ -21,3 +21,9 @@ C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\dllRapportVisites\bin\Debug\dllR
 C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.CoreCompileInputs.cache
 C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\dllRapportVisites\obj\Debug\dllRapportVisites.dll
 C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.dll
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\bin\Debug\dllRapportVisites.pdb
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.CoreCompileInputs.cache
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.dll
+C:\Users\cleme\Desktop\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
