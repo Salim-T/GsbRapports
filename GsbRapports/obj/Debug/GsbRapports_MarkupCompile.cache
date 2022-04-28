@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\cleme\OneDrive\Bureau\GsbRapports\GsbRapports\obj\Debug\
+C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\GsbRapports\obj\Debug\
 GsbRapports
 none
 false
 DEBUG;TRACE
-C:\Users\cleme\OneDrive\Bureau\GsbRapports\GsbRapports\App.xaml
+C:\Users\cleme\OneDrive\Bureau\GsbRapports-test\GsbRapports\App.xaml
 7-758592977
 
-12-863870117
-16-1612835481
+11-21510750
+16-24647082
 ajoutFamilleWindow.xaml;AjoutVisiteurWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;RapportVisiteurs.xaml;VoirFamillesWindow.xaml;
 
-True
+False
 

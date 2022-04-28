@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace dllRapportVisites
 {
     public class Rapport
@@ -31,6 +32,9 @@ namespace dllRapportVisites
             this.nomVisiteur = nomVisiteur;
             
         }
+        public Rapport() { }
+
+       
 
     }
 }
