@@ -47,6 +47,7 @@ namespace GsbRapports
                 string prenom = this.txtPrenom.Text;
                 string adresse = this.txtAdresse.Text;
                 string ville = this.txtVille.Text;
+                string date1 = this.txtDateEmbauche.Text;
 
                 bool ok = true;
 
@@ -68,6 +69,12 @@ namespace GsbRapports
                 else
                 {
                     erreurNom.Text = "";
+                }
+
+                if (nom.Length == 0)
+                {
+                    ok = false;
+                    erreurNom.Text = "Veuillez entrer un nom";
                 }
 
                 if (prenom.Length == 0)
@@ -111,6 +118,12 @@ namespace GsbRapports
                     erreurVille.Text = "";
                 }
 
+                if(date1 == "")
+                {
+                    ok = false;
+                    MessageBox.Show("Veuillez entrer une date valide");
+                }
+
 
                 if (ok)
                 {
@@ -123,7 +136,6 @@ namespace GsbRapports
                     parametres.Add("adresse", adresse);
                     parametres.Add("cp", cp);
                     parametres.Add("ville", ville);
-                    string date1 = this.txtDateEmbauche.Text;
                     DateTime dTime = Convert.ToDateTime(date1);
                     string dateTime1 = dTime.ToString("yyyy-MM-dd");
                     parametres.Add("dateEmbauche", dateTime1);
