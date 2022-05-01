@@ -84,7 +84,7 @@ namespace GsbRapports
                         this.txtBonjour.Visibility = Visibility.Visible;
                         this.txtBonjour.Text = "Bonjour " + this.laSecretaire.prenom + " " + this.laSecretaire.nom;
                         this.DckMenu.Visibility = Visibility.Visible;
-                        this.imgLogo.Visibility = Visibility.Visible;
+                        this.imgLogo.Visibility = Visibility.Hidden;
                         this.stPanel.Visibility = Visibility.Hidden;
                     }
                 }
