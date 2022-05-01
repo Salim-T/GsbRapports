@@ -6,66 +6,109 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="GSB gestion des rapports de visites" Height="450" Width="800" 
-      
-         Background="#181735">
+        Background="#0F0F2D"
+       >
 
 
 
-    <Grid  >
-        <Grid  >
+    <Grid >
+       
+       
 
-         <DockPanel>
-                <Menu DockPanel.Dock="Top" x:Name="DckMenu"  Background="#181735" >
-                    <MenuItem Header="_Fichier" Foreground="White">
-                        <MenuItem Header="_Quitter" Foreground="Black"/>
+        
+        <DockPanel >
+
+            <Menu DockPanel.Dock="Top" x:Name="DckMenu"  Background="#0F0F2D" >
+                <MenuItem Header="_Fichier" Foreground="White">
+                    <MenuItem Header="_Quitter" Foreground="Black"/>
                 </MenuItem>
-                    <MenuItem Header="_Médecins" Foreground="White">
-
-                </MenuItem>
-                    <MenuItem Header="_Visites" Foreground="White">
-
-                    </MenuItem >
-                    <MenuItem Header="_médicaments" Foreground="White">
+                <MenuItem Header="_Médecins" Foreground="White">
 
                 </MenuItem>
-                    <MenuItem Header="_Familles" Foreground="White">
-                        <MenuItem Header="_Voir" Click="MenuItem_Click" Foreground="black"/>
-                        <MenuItem Header="_Modifier" Click="MenuItem_Click_1" Foreground="black" />
-                        <MenuItem Header="_Ajouter" Click="MenuItem_Click_2"  Foreground="black"/>
+                <MenuItem Header="_Visites" Foreground="White">
+
+                </MenuItem >
+                <MenuItem Header="_médicaments" Foreground="White">
+
                 </MenuItem>
-                    <MenuItem Header="_visiteurs" Foreground="White">
-                        <MenuItem Header="_Ajouter" Click="MenuItem_Click_3" Foreground="black"/>
-                        <MenuItem Header="_Modifier"  Click="MenuItem_Click_4" Foreground="black"/>
-                        <MenuItem Header="_Gerer les rapports" Click="MenuItem_Click5" Foreground="black"/>
-                    
+                <MenuItem Header="_Familles" Foreground="White">
+                    <MenuItem Header="_Voir" Click="MenuItem_Click" Foreground="black"/>
+                    <MenuItem Header="_Modifier" Click="MenuItem_Click_1" Foreground="black" />
+                    <MenuItem Header="_Ajouter" Click="MenuItem_Click_2"  Foreground="black"/>
+                </MenuItem>
+                <MenuItem Header="_visiteurs" Foreground="White">
+                    <MenuItem Header="_Ajouter" Click="MenuItem_Click_3" Foreground="black"/>
+                    <MenuItem Header="_Modifier"  Click="MenuItem_Click_4" Foreground="black"/>
+                    <MenuItem Header="_Gerer les rapports" Click="MenuItem_Click5" Foreground="black"/>
+
                 </MenuItem>
 
             </Menu>
 
 
-        </DockPanel>
-            <TextBox x:Name="txtBonjour" Foreground="White" Width="150" Height="30" Margin="50,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#181735"/>
+        </DockPanel >
+        <TextBox x:Name="txtBonjour" Foreground="White" Width="150" Height="30" Margin="50,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#181735"/>
         <StackPanel  Orientation ="Horizontal" Margin="5,138,5,0" Height="267" VerticalAlignment="Top" >
-                <StackPanel Height="100" Margin="0,84,0,83" x:Name="stPanel">
-                    <StackPanel Orientation="Horizontal" >
-                        <TextBlock Text="Login" Foreground="White" Margin="20,0,12,0" FontFamily="Font/#Dosis" FontWeight="Medium"/>
-                        <TextBox x:Name ="txtLogin"  Width="50" Margin="60,0,0,0"/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Mot de passe" Foreground="White" Margin="20,0,10,0" FontFamily="Font/#Dosis" FontWeight="Medium"/>
-                        <PasswordBox x:Name ="txtMdp"  Width="50" Margin="20,0,0,0"/>
-                    </StackPanel>
+            <StackPanel Width="200"  Height="100" Margin="294,84,0,83" x:Name="stPanel">
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock Text="Login" Foreground="White" Margin="20,0,13,0" FontFamily="Font/#Dosis" FontWeight="Medium"/>
+                    <TextBox x:Name ="txtLogin"  Width="50" Margin="60,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Mot de passe" Foreground="White" Margin="20,0,10,0" FontFamily="Font/#Dosis" FontWeight="Medium"/>
+                    <PasswordBox x:Name ="txtMdp"  Width="50" Margin="20,0,0,0"/>
+                </StackPanel>
 
-                    <Button x:Name="btnValider" Margin="10,20,0,0" Width="50" Content="Valider" Click="btnValider_Click"/>
+                <StackPanel Orientation="Horizontal"
+                                Margin="40,25,0,0">
+                    <Button Content="Valider"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                                Click="btnValider_Click">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                                <Setter Property="Background" Value="#FE6584"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FF4C70"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+
+                    </Button>
+
+
+
+
 
 
                 </StackPanel>
-                <Image Height="168" Width="405" Source="gsb.jpg" x:Name="imgLogo" Margin="0,50,0,49" Visibility="Hidden" />
+
+
             </StackPanel>
+            <Image Height="168" Width="405" Source="gsb.jpg" x:Name="imgLogo" Margin="0,50,0,49" Visibility="Hidden" />
+        </StackPanel>
 
 
-        
-    </Grid>
+
+
 
     </Grid>
 </Window>
