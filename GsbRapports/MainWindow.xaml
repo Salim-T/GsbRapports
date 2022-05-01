@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
-        Title="GSB gestion des rapports de visites" Height="450" Width="800" Icon="gsb.jpg" HorizontalAlignment="Center">
-    <Grid>
-        <DockPanel>
+        Title="GSB gestion des rapports de visites" Height="450" Width="800" Icon="gsb.jpg" HorizontalAlignment="Center"
+        >
+
+
+
+    <Grid >
+
+         <DockPanel>
             <Menu DockPanel.Dock="Top" x:Name="DckMenu" >
                 <MenuItem Header="_Fichier">
                     <MenuItem Header="_Quitter"/>
@@ -55,5 +60,6 @@
         </StackPanel>
 
 
+        
     </Grid>
 </Window>

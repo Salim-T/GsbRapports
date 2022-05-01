@@ -1,623 +1,593 @@
 <?xml version="1.0"?>
 <ArrayOfRapport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-06-06T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GABRIEL</nomMedecin>
-    <prenomMedecin>Alain</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>Jeune médecin découvrant les visiteurs</bilan>
-    <date>2021-06-07T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>TARDIEU</nomMedecin>
-    <prenomMedecin>sabine</prenomMedecin>
-  </Rapport>
-  <Rapport>
     <motif>Prise de contact</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-06-08T00:00:00</date>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-06-10T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GILLY</nomMedecin>
-    <prenomMedecin>Aurèle</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SAVINO</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très fixé sur les produits utilisés</bilan>
+    <date>2021-06-13T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MOURGUES</nomMedecin>
+    <prenomMedecin>Astine</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>Prise de contact</motif>
     <bilan>Demande à me revoir dans un mois</bilan>
-    <date>2021-06-09T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MARIE</nomMedecin>
-    <prenomMedecin>Carole</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Très fixé sur les produits utilisés</bilan>
-    <date>2021-06-10T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>RAMPAL</nomMedecin>
-    <prenomMedecin>Béatrice</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Sur sa réserve</bilan>
-    <date>2021-06-11T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>LAURENS</nomMedecin>
-    <prenomMedecin>Anne-Jeanne</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Peu intéressé</bilan>
-    <date>2021-06-11T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>CLAVEL</nomMedecin>
-    <prenomMedecin>François</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2021-06-12T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>CECCHI</nomMedecin>
-    <prenomMedecin>Amiel</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Sur sa réserve</bilan>
-    <date>2021-06-14T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>ROSSIGNOL</nomMedecin>
-    <prenomMedecin>Fatima</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-06-16T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MARCHI</nomMedecin>
-    <prenomMedecin>Fatima</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Jeune médecin découvrant les visiteurs</bilan>
     <date>2021-06-18T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MASSOT</nomMedecin>
-    <prenomMedecin>Aurélien</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>HUGUES</nomMedecin>
+    <prenomMedecin>Alain</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>Prise de contact</motif>
-    <bilan>RAS</bilan>
+    <bilan>Visite positive</bilan>
     <date>2021-06-19T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GATTO</nomMedecin>
-    <prenomMedecin>Sophie</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>VALERY</nomMedecin>
+    <prenomMedecin>Firmin</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>Visite annuelle</motif>
-    <bilan>Sur sa réserve</bilan>
-    <date>2021-06-20T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>DUTTO</nomMedecin>
-    <prenomMedecin>sabine</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>RAS</bilan>
-    <date>2021-06-20T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MUNOZ</nomMedecin>
-    <prenomMedecin>Irénée</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>RAS</bilan>
-    <date>2021-06-22T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GIMENEZ</nomMedecin>
-    <prenomMedecin>Austine</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Pas très aimable</bilan>
-    <date>2021-06-24T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>DUTTO</nomMedecin>
-    <prenomMedecin>sabine</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Peu bavard</bilan>
-    <date>2021-06-27T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MILLET</nomMedecin>
-    <prenomMedecin>Hypolite</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
     <bilan>Peu intéressé</bilan>
-    <date>2021-06-29T00:00:00</date>
+    <date>2021-06-19T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BERTORELLO</nomMedecin>
-    <prenomMedecin>Amélie</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Pas très aimable</bilan>
-    <date>2021-06-30T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>NEGREL</nomMedecin>
-    <prenomMedecin>Anne-Jeanne</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>A beaucoup appécié notre rencontre</bilan>
-    <date>2021-06-30T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BIANCOTTO</nomMedecin>
-    <prenomMedecin>Camille</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Très intéressé par les produits présentés</bilan>
-    <date>2021-07-02T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>JOLY</nomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SILVESTRI</nomMedecin>
     <prenomMedecin>Caline</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>recommandation de confrère</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-07-03T00:00:00</date>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-06-20T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GIUSTI</nomMedecin>
-    <prenomMedecin>Habib</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MILLE</nomMedecin>
+    <prenomMedecin>Andrée</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>recommandation de confrère</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-09-05T00:00:00</date>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-06-20T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>TORRE</nomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MANOUKIAN</nomMedecin>
     <prenomMedecin>Aline</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2021-09-08T00:00:00</date>
+    <motif>Installation nouvelle</motif>
+    <bilan>Visite positive</bilan>
+    <date>2021-06-21T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BALESTRA</nomMedecin>
-    <prenomMedecin>Anne-Lucie</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Peu intéressé</bilan>
-    <date>2021-09-15T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MICHELI</nomMedecin>
-    <prenomMedecin>Aristote</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-09-18T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MANCA</nomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ORSONI</nomMedecin>
     <prenomMedecin>Irénée</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Visite positive</bilan>
-    <date>2021-09-18T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BRETON</nomMedecin>
-    <prenomMedecin>John</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Très fixé sur les produits utilisés</bilan>
-    <date>2021-09-20T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BLACHERE</nomMedecin>
-    <prenomMedecin>Hypolite</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-09-29T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>JAUME</nomMedecin>
-    <prenomMedecin>Jules</prenomMedecin>
-  </Rapport>
-  <Rapport>
     <motif>recommandation de confrère</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-09-30T00:00:00</date>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-06-21T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MARCHI</nomMedecin>
-    <prenomMedecin>Fatima</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>RAS</bilan>
-    <date>2021-10-06T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>TOMASINI</nomMedecin>
-    <prenomMedecin>Austine</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>RAS</bilan>
-    <date>2021-10-07T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>FAVIER</nomMedecin>
-    <prenomMedecin>Alice</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>RAS</bilan>
-    <date>2021-10-08T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MONIER</nomMedecin>
-    <prenomMedecin>Adrien</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Très intéressé par les produits présentés</bilan>
-    <date>2021-10-12T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GUIEU</nomMedecin>
-    <prenomMedecin>Aline</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>Peu intéressé</bilan>
-    <date>2021-10-14T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GONDRAN</nomMedecin>
-    <prenomMedecin>Catherine</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>A beaucoup appécié notre rencontre</bilan>
-    <date>2021-10-23T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>VIAL</nomMedecin>
-    <prenomMedecin>Fernand</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-10-24T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>DANGELO</nomMedecin>
-    <prenomMedecin>André</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Très intéressé par les produits présentés</bilan>
-    <date>2021-10-24T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>SEGUIN</nomMedecin>
-    <prenomMedecin>Anne-Sophie</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2021-10-24T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BERENGER</nomMedecin>
-    <prenomMedecin>Anne-Laure</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-10-29T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>FERAUD</nomMedecin>
-    <prenomMedecin>Anne-Lucie</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>Sur sa réserve</bilan>
-    <date>2021-10-30T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BOSQ</nomMedecin>
-    <prenomMedecin>Marie</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-11-01T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GRAZIANI</nomMedecin>
-    <prenomMedecin>Martin</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2021-11-04T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>ROUSSET</nomMedecin>
-    <prenomMedecin>Victor</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>RAS</bilan>
-    <date>2021-11-06T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>HONNORAT</nomMedecin>
-    <prenomMedecin>Anne</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Installation nouvelle</motif>
-    <bilan>Demande à me revoir dans un mois</bilan>
-    <date>2021-11-09T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>CARLES</nomMedecin>
-    <prenomMedecin>Victor</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>A beaucoup appécié notre rencontre</bilan>
-    <date>2021-11-21T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>FILIPPI</nomMedecin>
-    <prenomMedecin>Serge</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>Visite positive</bilan>
-    <date>2021-11-22T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>SEGOND</nomMedecin>
-    <prenomMedecin>Martial</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2021-11-25T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BAYLE</nomMedecin>
-    <prenomMedecin>Jules</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Très fixé sur les produits utilisés</bilan>
-    <date>2021-12-03T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>RENUCCI</nomMedecin>
-    <prenomMedecin>Bertrand</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Pas en confiance</bilan>
-    <date>2021-12-09T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MOUTET</nomMedecin>
-    <prenomMedecin>Julien</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>A revoir assez rapidement</bilan>
-    <date>2021-12-16T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>RAVEL</nomMedecin>
-    <prenomMedecin>Patrice</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Visite annuelle</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2021-12-26T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>SAVELLI</nomMedecin>
-    <prenomMedecin>Béatrice</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>BARONE</nomMedecin>
+    <prenomMedecin>François</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>Prise de contact</motif>
     <bilan>Trop pressé</bilan>
-    <date>2021-12-31T00:00:00</date>
+    <date>2021-06-22T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>CASTEL</nomMedecin>
-    <prenomMedecin>Aurèle</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>DUPRE</nomMedecin>
+    <prenomMedecin>Mohammed</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2021-06-22T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>PIAZZA</nomMedecin>
+    <prenomMedecin>Amiel</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>recommandation de confrère</motif>
-    <bilan>Peu bavard</bilan>
-    <date>2022-01-15T00:00:00</date>
+    <bilan>A revoir assez rapidement</bilan>
+    <date>2021-06-22T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>RIGAUD</nomMedecin>
-    <prenomMedecin>Anne-Sophie</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SAVELLI</nomMedecin>
+    <prenomMedecin>Béatrice</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>Visite positive</bilan>
-    <date>2022-01-20T00:00:00</date>
+    <motif>recommandation de confrère</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2021-06-26T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>ROSSO</nomMedecin>
-    <prenomMedecin>Aristote</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>LOMBARDO</nomMedecin>
+    <prenomMedecin>Serge</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Sur sa réserve</bilan>
-    <date>2022-01-20T00:00:00</date>
+    <motif>Visite annuelle</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2021-06-27T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>BLACHE</nomMedecin>
-    <prenomMedecin>Gilles</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ANGELI</nomMedecin>
+    <prenomMedecin>Béatrice</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Très fixé sur les produits utilisés</bilan>
-    <date>2022-01-21T00:00:00</date>
-    <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GUIEN</nomMedecin>
-    <prenomMedecin>Reissa</prenomMedecin>
-  </Rapport>
-  <Rapport>
-    <motif>Demande du médecin</motif>
+    <motif>recommandation de confrère</motif>
     <bilan>RAS</bilan>
-    <date>2022-02-01T00:00:00</date>
+    <date>2021-06-28T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>MARTINET</nomMedecin>
-    <prenomMedecin>Gilles</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ANDRE</nomMedecin>
+    <prenomMedecin>Béatrice</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Demande du médecin</motif>
-    <bilan>Pas intéressé du tout</bilan>
-    <date>2022-02-05T00:00:00</date>
+    <motif>Visite annuelle</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-06-30T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>GARGUILO</nomMedecin>
-    <prenomMedecin>Caline</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>FERRI</nomMedecin>
+    <prenomMedecin>Julie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas en confiance</bilan>
+    <date>2021-07-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>BORGHINO</nomMedecin>
+    <prenomMedecin>Carole</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-07-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>CASTELLANI</nomMedecin>
+    <prenomMedecin>Julie</prenomMedecin>
   </Rapport>
   <Rapport>
     <motif>recommandation de confrère</motif>
-    <bilan>Peu bavard</bilan>
-    <date>2022-02-07T00:00:00</date>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-07-03T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>LUCAS</nomMedecin>
-    <prenomMedecin>Hamed</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>PADOVANI</nomMedecin>
+    <prenomMedecin>Jordan</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>Prise de contact</motif>
-    <bilan>Pas en confiance</bilan>
-    <date>2022-02-18T00:00:00</date>
+    <motif>recommandation de confrère</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-09-14T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>PINNA</nomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>GABRIEL</nomMedecin>
+    <prenomMedecin>Alain</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2021-09-23T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>LION</nomMedecin>
+    <prenomMedecin>Fatima</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Très fixé sur les produits utilisés</bilan>
+    <date>2021-09-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>TOMASI</nomMedecin>
+    <prenomMedecin>Cristophe</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-10-07T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>LAUGIER</nomMedecin>
+    <prenomMedecin>Fatima</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-10-16T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>FOURNIER</nomMedecin>
     <prenomMedecin>Alice</prenomMedecin>
   </Rapport>
   <Rapport>
-    <motif>recommandation de confrère</motif>
-    <bilan>Très aimable maintenir un contact régulier</bilan>
-    <date>2022-02-25T00:00:00</date>
+    <motif>Installation nouvelle</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-10-17T00:00:00</date>
     <idMedecin>0</idMedecin>
-    <nomVisiteur>Bunisset</nomVisiteur>
-    <prenomVisiteur>Francis</prenomVisiteur>
-    <nomMedecin>ALBANO</nomMedecin>
-    <prenomMedecin>Rosalie</prenomMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MASSA</nomMedecin>
+    <prenomMedecin>Fernand</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2021-10-25T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SAHRAOUI</nomMedecin>
+    <prenomMedecin>Anne-Ange</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très fixé sur les produits utilisés</bilan>
+    <date>2021-10-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>FERRARIS</nomMedecin>
+    <prenomMedecin>John</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-10-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>TIRAN</nomMedecin>
+    <prenomMedecin>Ines</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2021-10-28T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MAESTRACCI</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>A revoir assez rapidement</bilan>
+    <date>2021-10-29T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SILVY</nomMedecin>
+    <prenomMedecin>Andrée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-11-17T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>COMTE</nomMedecin>
+    <prenomMedecin>Aude</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Demande à me revoir dans un mois</bilan>
+    <date>2021-11-18T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ROURE</nomMedecin>
+    <prenomMedecin>Anne-Jeanne</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-11-23T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>AMARA</nomMedecin>
+    <prenomMedecin>Aline</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-11-24T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MOREAU</nomMedecin>
+    <prenomMedecin>Anne-Lucie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-11-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>PUJOL</nomMedecin>
+    <prenomMedecin>Austine</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2021-11-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>GUEYDON</nomMedecin>
+    <prenomMedecin>Serge</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2021-12-01T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>CARVIN</nomMedecin>
+    <prenomMedecin>John</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-12-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MOSSE</nomMedecin>
+    <prenomMedecin>Caline</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2021-12-20T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ARLAUD</nomMedecin>
+    <prenomMedecin>Anémone</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2021-12-23T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>SEGURA</nomMedecin>
+    <prenomMedecin>Irénée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2022-01-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MARION</nomMedecin>
+    <prenomMedecin>Anne-Lucie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2022-01-05T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>DENIS</nomMedecin>
+    <prenomMedecin>Aurélien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2022-01-08T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>AGOSTINI</nomMedecin>
+    <prenomMedecin>Amélie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2022-01-08T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>JIMENEZ</nomMedecin>
+    <prenomMedecin>Anne-Marie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Demande à me revoir dans un mois</bilan>
+    <date>2022-01-09T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>PEREZ</nomMedecin>
+    <prenomMedecin>Jules</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2022-01-15T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>CAILLOL</nomMedecin>
+    <prenomMedecin>Andrée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2022-01-21T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MALET</nomMedecin>
+    <prenomMedecin>Andrew</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas en confiance</bilan>
+    <date>2022-01-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>NAVARRO</nomMedecin>
+    <prenomMedecin>Armelle</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Visite positive</bilan>
+    <date>2022-01-28T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>CHAUVIN</nomMedecin>
+    <prenomMedecin>Irénée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2022-01-28T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>JULIEN</nomMedecin>
+    <prenomMedecin>John</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>A revoir assez rapidement</bilan>
+    <date>2022-01-30T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>CARMIGNANI</nomMedecin>
+    <prenomMedecin>Prosper</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Très fixé sur les produits utilisés</bilan>
+    <date>2022-02-07T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>RICCI</nomMedecin>
+    <prenomMedecin>Roby</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2022-02-07T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>THOMAS</nomMedecin>
+    <prenomMedecin>Bénédicte</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2022-02-09T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>LEYDET</nomMedecin>
+    <prenomMedecin>Béatrice</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2022-02-14T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ALBRAND</nomMedecin>
+    <prenomMedecin>Hector</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2022-02-24T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>DURET</nomMedecin>
+    <prenomMedecin>Anémone</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Demande à me revoir dans un mois</bilan>
+    <date>2022-03-01T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>TAMISIER</nomMedecin>
+    <prenomMedecin>sabine</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2022-03-04T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>ANDREU</nomMedecin>
+    <prenomMedecin>Aristote</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2022-03-14T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Bedos</nomVisiteur>
+    <prenomVisiteur>Christian</prenomVisiteur>
+    <nomMedecin>MOULINAS</nomMedecin>
+    <prenomMedecin>Adelphe</prenomMedecin>
   </Rapport>
 </ArrayOfRapport>
