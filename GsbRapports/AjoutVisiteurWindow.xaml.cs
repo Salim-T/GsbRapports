@@ -82,16 +82,17 @@ namespace GsbRapports
                     ok = false;
                     erreurPrenom.Text = "Veuillez entrer un prénom";
                 }
+
                 else
                 {
                     erreurPrenom.Text = "";
-                }
-
-                if (adresse.Length == 0)
+                }              
+                if (adresse.Length < 8 )
                 {
                     ok = false;
-                    erreurAdresse.Text = "Veuillez entrer une adresse";
+                    erreurAdresse.Text = "l'adresse doit etre contenir au moins 8 caractères ";
                 }
+
                 else
                 {
                     erreurAdresse.Text = "";
@@ -102,6 +103,7 @@ namespace GsbRapports
                     ok = false;
                     erreurCp.Text = "Le code postale doit contenir 5 caractères";
                 }
+
                 else
                 {
                     erreurCp.Text = "";
@@ -113,6 +115,7 @@ namespace GsbRapports
                     ok = false;
                     erreurVille.Text = "Veuillez entrer une ville";
                 }
+
                 else
                 {
                     erreurVille.Text = "";
@@ -123,7 +126,6 @@ namespace GsbRapports
                     ok = false;
                     MessageBox.Show("Veuillez entrer une date valide");
                 }
-
 
                 if (ok)
                 {
@@ -152,7 +154,6 @@ namespace GsbRapports
                 if (ex.Response is HttpWebResponse)
                     MessageBox.Show(((HttpWebResponse)ex.Response).StatusCode.ToString());
             }
-
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
