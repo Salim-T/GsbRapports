@@ -80,5 +80,7 @@ namespace GsbRapports
                 MessageBox.Show(ex.Message);
             }
         }
+
+     
     }
 }

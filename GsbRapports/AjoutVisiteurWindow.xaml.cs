@@ -159,5 +159,7 @@ namespace GsbRapports
         {
             Close();
         }
+
+      
     }
 }

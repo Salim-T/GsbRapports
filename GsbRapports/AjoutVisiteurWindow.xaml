@@ -6,40 +6,122 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="AjoutVisiteurWindow" Height="450" Width="800">
-    <Grid Height="450" Width="800">
 
-        <TextBlock Text="Id Visiteur" Margin="50,59,676,352" RenderTransformOrigin="0.514,0.479"></TextBlock>
+    <Grid Height="450" Width="800" Background="#0F0F2D">
+
+        <StackPanel>
+            
+            
+        </StackPanel>
+
+        <TextBlock Text="Id Visiteur" Foreground="White" Margin="50,59,676,352" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtIdVisiteur"  Margin="140,59,520,372" />
         <TextBlock x:Name="erreurId" Margin="314,59,325,372" Foreground="Red" RenderTransformOrigin="4.129,0.47" ></TextBlock>
-             
 
-        <TextBlock Text="Nom" Margin="50,91,676,320" RenderTransformOrigin="0.514,0.479"></TextBlock>
+
+        <TextBlock Text="Nom"  Foreground="White" Margin="50,91,676,320" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtNom"  Margin="140,93,520,340" />
         <TextBlock x:Name="erreurNom" Foreground="Red" Margin="314,91,337,340" RenderTransformOrigin="0.514,0.479"/>
 
-        <TextBlock Text="Prenom" Margin="50,129,676,282" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBlock Text="Prenom" Foreground="White"  Margin="50,129,676,282" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtPrenom"  Margin="140,129,520,302" />
         <TextBlock x:Name="erreurPrenom" Foreground="Red" Margin="314,129,337,302" RenderTransformOrigin="0.514,0.479"/>
 
-        <TextBlock Text="Adresse" Margin="50,160,676,251" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBlock Text="Adresse" Foreground="White" Margin="50,160,676,251" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtAdresse"  Margin="140,162,520,270" />
         <TextBlock x:Name="erreurAdresse" Foreground="Red" Margin="314,162,337,270" RenderTransformOrigin="0.514,0.479"/>
 
-        
-        <TextBlock Text="Code Postal" Margin="50,198,676,213" RenderTransformOrigin="0.514,0.479"></TextBlock>
+
+        <TextBlock Text="Code Postal" Foreground="White" Margin="50,198,676,213" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtCodePostal"  Margin="140,198,520,232" />
         <TextBlock x:Name="erreurCp" Foreground="Red" Margin="314,198,253,232" RenderTransformOrigin="0.514,0.479"/>
 
-        <TextBlock Text="Ville" Margin="50,236,676,201" RenderTransformOrigin="0.514,0.479"></TextBlock>
+        <TextBlock Text="Ville"  Foreground="White" Margin="50,236,676,201" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <TextBox x:Name="txtVille"  Margin="140,233,520,197" />
         <TextBlock x:Name="erreurVille" Foreground="Red" Margin="314,236,325,197" RenderTransformOrigin="0.514,0.479"/>
 
-        
-        <TextBlock Text="Date d'embauche" Margin="40,266,666,139" RenderTransformOrigin="0.514,0.479"></TextBlock>
+
+        <TextBlock Text="Date d'embauche" Foreground="White" Margin="40,266,666,139" RenderTransformOrigin="0.514,0.479"></TextBlock>
         <DatePicker x:Name="txtDateEmbauche" HorizontalAlignment="Left" Margin="139,266,0,0" VerticalAlignment="Top" Width="170" Height="32"/>
 
-        <Button x:Name="btnValider" Content="Valider" Margin="269,308,421,111" Click="btnValider_Click1" />
-        <Button x:Name="btnAnnuler" Content="Annuler" Margin="437,308,253,111" Click="CloseButton_Click"/>
+
+
+
+        <StackPanel Orientation="Horizontal"
+                                Margin="140,225,0,0">
+            <Button Content="Valider"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                                Click="btnValider_Click1" RenderTransformOrigin="1.92,0.793">
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+            <Button Content="Annuler"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                                Margin="100,5,0,0"
+                                Click="CloseButton_Click"
+                    
+                                RenderTransformOrigin="1.92,0.793">
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                        <Setter Property="Background" Value="#3A3952"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+        </StackPanel>
+
+
+
 
     </Grid>
 </Window>

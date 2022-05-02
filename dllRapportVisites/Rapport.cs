@@ -32,7 +32,7 @@ namespace dllRapportVisites
             this.nomVisiteur = nomVisiteur;
             
         }
-        public Rapport() { }
+        public Rapport() { } // exportation Classe constructeur pour une liste 
 
        
 

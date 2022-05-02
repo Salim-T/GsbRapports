@@ -53,20 +53,20 @@ namespace GsbRapports
             string date1 = dtpDate1.Text;
             string date2 = dtpDate2.Text;
 
-            bool ok = true;
+            bool erreurs = true;
 
             if (date1 == "")
             {
-                ok = false;
+                erreurs = false;
                 erreurDate1.Text = "Veuillez entrer une date valide";
             }
             if (date1 == "")
             {
-                ok = false;
+                erreurs = false;
                 erreurDate2.Text = "Veuillez entrer une date valide";
             }
 
-                if (ok)
+                if (erreurs)
                 {
                     Visiteur v = (Visiteur)cmbVisiteurs.SelectedItem; //visiteur selectionné dans la liste
                     string idVisiteur = v.id;//recupere l'id du visiteur selectionné
@@ -83,10 +83,9 @@ namespace GsbRapports
                     List<Rapport> lst = JsonConvert.DeserializeObject<List<Rapport>>(rapports);
                     this.dtGridRapports.ItemsSource = lst;
 
-                  
+                 
 
-
-               
+              
 
                    
                 }
@@ -116,14 +115,14 @@ namespace GsbRapports
             List<Rapport> lst = JsonConvert.DeserializeObject<List<Rapport>>(rapports);
 
 
-
-       
-  
-            FileStream fichier = new FileStream("rapports.xml", FileMode.Create);
+            //string ficher = "Fichier_exporte/rapports.xml";
+            FileStream fichier = new FileStream("Fichier_exporte/rapports.xml", FileMode.Create);
             XmlSerializer x = new XmlSerializer(lst.GetType());
             x.Serialize(fichier, lst);
             MessageBox.Show("Fichier exporté");
-            fichier.Close();
+            Close();
+
+
 
 
 

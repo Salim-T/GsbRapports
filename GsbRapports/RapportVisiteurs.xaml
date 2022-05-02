@@ -6,14 +6,50 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="RapportVisiteurs" Height="450" Width="800">
-    <Grid>
+    
+    <Grid  Background="#0F0F2D">
 
-        <ComboBox x:Name="cmbVisiteurs" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
-        <DatePicker x:Name="dtpDate1" HorizontalAlignment="Left" Margin="41,128,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <ComboBox  x:Name="cmbVisiteurs" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <DatePicker x:Name="dtpDate1" HorizontalAlignment="Left" Margin="41,154,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
         <TextBlock x:Name="erreurDate1" Margin="21,168,547.333,228.667" Foreground="Red" RenderTransformOrigin="4.129,0.47" ></TextBlock>
-        <DatePicker x:Name="dtpDate2" HorizontalAlignment="Left" Margin="40,206,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
+        <DatePicker x:Name="dtpDate2" HorizontalAlignment="Left" Margin="40,230,0,0" VerticalAlignment="Top" Width="170" Height="31"/>
         <TextBlock x:Name="erreurDate2" Margin="21,258,547.333,138.667" Foreground="Red" RenderTransformOrigin="4.129,0.47" ></TextBlock>
-        <Button  x:Name="valider" Content="Valider" HorizontalAlignment="Left" Margin="41,308,0,0" VerticalAlignment="Top" Width="170" Height="31" Click="valider_Click"/>
+
+        <StackPanel   Margin="-550,300,0,0">
+            <Button Content="Valider"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                              
+                                Click="valider_Click" RenderTransformOrigin="1.92,0.793">
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+        </StackPanel>
 
 
         <DataGrid x:Name="dtGridRapports" AutoGenerateColumns="False" Margin="273,74,65,139"  AlternatingRowBackground = "LightBlue">
@@ -28,7 +64,43 @@
                     Binding="{Binding bilan}" Foreground="BLACK"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="exportationXml" Content="ExportationXml" HorizontalAlignment="Left" Margin="406,312,0,0" VerticalAlignment="Top" Width="151" Height="31" Click="exportationXml_Click"/>
+
+
+        <StackPanel   Margin="250,300,0,0">
+            <Button             Content="ExporterXml"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                              
+                                Click="exportationXml_Click" RenderTransformOrigin="1.92,0.793">
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                        <Setter Property="Background" Value="#3A3952"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+        </StackPanel>
 
 
 

@@ -47,7 +47,7 @@
 
 
         </DockPanel >
-        <TextBox x:Name="txtBonjour" Foreground="White" Width="150" Height="30" Margin="50,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#181735"/>
+        <TextBox x:Name="txtBonjour"   Foreground="White" Width="150" Height="30" Margin="334,156,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#181735"/>
         <StackPanel  Orientation ="Horizontal" Margin="5,138,5,0" Height="267" VerticalAlignment="Top" >
             <StackPanel Width="200"  Height="100" Margin="294,84,0,83" x:Name="stPanel">
                 <StackPanel Orientation="Horizontal" >
