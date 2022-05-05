@@ -6,13 +6,12 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="Voir les Familles" Height="450" Width="800">
-    <Grid>
+    
+    <Grid Background="#0F0F2D" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="129*"/>
             <ColumnDefinition Width="665*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dtgfamilles" Height="200" Width="300" Grid.Column="1" Margin="118.421,110,246.333,110.667" >
-
-        </DataGrid>
+        <DataGrid x:Name="dtgfamilles" Margin="0,65,100,66" Grid.Column="1" />
     </Grid>
 </Window>

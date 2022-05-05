@@ -100,7 +100,7 @@ namespace GsbRapports
                 if (cp.Length != 5)
                 {
                     ok = false;
-                    erreurCp.Text = "Le code postale doit contenir 5 caractères";
+                    erreurCp.Text = "Le code postale doit contenir " + '\n' +" 5 caractères";
                 }
                 else
                 {
@@ -121,7 +121,7 @@ namespace GsbRapports
                 if(date1 == "")
                 {
                     ok = false;
-                    MessageBox.Show("Veuillez entrer une date valide");
+                    erreurdate.Text ="Veuillez entrer une date valide";
                 }
 
 

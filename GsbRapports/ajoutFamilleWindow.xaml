@@ -6,19 +6,57 @@
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
         Title="Ajouter une famille" Height="450" Width="800">
-    <Grid>
-        <StackPanel Margin="0,50,0,0" >
-            <StackPanel Orientation="Horizontal" Margin="30,0,0,0">
-                <TextBlock Text="Id" Width="30"/>
-                <TextBox x:Name="txtId" Margin="50,0,0,0" Width="50"/>
+    <Grid Background="#0F0F2D">
+        <StackPanel Margin="50,107,38,65" >
+            <StackPanel Orientation="Horizontal" Margin="230,0,0,0">
+                <TextBlock Text="Id" Foreground="White" Width="30"/>
+                <TextBox x:Name="txtId" Margin="150,0,0,0" Width="100"/>
 
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Libellé" Margin="30,0,0,0"/>
-                <TextBox x:Name="txtLibelle" Margin="50,0,0,0" Width="60"/>
+                <TextBlock Text="Libellé" Foreground="White" Margin="230,20,0,0"/>
+                <TextBox x:Name="txtLibelle"  Margin="146,20,20,10" Width="100"/>
 
             </StackPanel>
-            <Button x:Name="btnValider" Content="Ajouter" Width="50" HorizontalAlignment="Center" Click="btnValider_Click_1"/>
+
+
+            <StackPanel Orientation="Horizontal"
+                                Margin="329,25,0,0">
+                <Button Content="Valider"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                                Click="btnValider_Click_1" RenderTransformOrigin="1.92,0.793">
+
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF4C70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                                <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+
+            </StackPanel>
+
         </StackPanel>
     </Grid>
 </Window>

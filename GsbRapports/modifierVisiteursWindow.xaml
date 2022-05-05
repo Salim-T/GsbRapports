@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
-        Title="modifierVisiteursWindow" Height="450" Width="800">
-    <Grid>
+        Title="modifier un Visiteurs " Height="450" Width="800">
+
+    <Grid Background="#0F0F2D">
         <StackPanel Margin="0,0,0,0">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
                 <TextBlock x:Name="txtLibVisiteurs" Margin="50,0,0,0" />
             </StackPanel>
-            <ComboBox x:Name="cmbVisiteur" Margin="50,50,647.333,50" Height="27" RenderTransformOrigin="0.5,0.5">
+            <ComboBox x:Name="cmbVisiteur" Margin="50,50,607,50" Height="27" RenderTransformOrigin="0.5,0.5">
                 <ComboBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -24,18 +25,59 @@
         </StackPanel>
         <StackPanel Margin="230,98,119.333,146.667">
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Ville" Width="55" Height="21" />
-                <TextBox x:Name="txtVilleVisiteur" Width="121" Height="22" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding ville}"/>
+                <TextBlock Text="Ville" Foreground="White" Width="55" Height="21" />
+                <TextBox x:Name="txtVilleVisiteur" Margin="21,0,0,0" Width="121" Height="22" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding ville}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Adresse" Width="51" />
-                <TextBox x:Name="txtAdresseVisiteur" Width="122" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding adresse}"/>
+                <TextBlock Text="Adresse" Foreground="White" Width="51" />
+                <TextBox x:Name="txtAdresseVisiteur" Margin="25,0,0,0" Width="121" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding adresse}"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Code postale" Width="76" />
-                <TextBox x:Name="txtCpVisiteur" Width="96" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding cp}"/>
+                <TextBlock Text="Code postale" Foreground="White" Width="76" />
+                <TextBox x:Name="txtCpVisiteur" Margin="0,0,0,0" Width="121" Height="24" DataContext="{Binding ElementName=cmbVisiteur, Path=SelectedItem}" Text="{Binding cp}"/>
             </StackPanel>
-            <Button x:Name="btnValider" Content="Valider" Width="100" Click="btnValider_Click" Margin="100,10"/>
+
+
+
         </StackPanel>
+
+        <StackPanel Orientation="Horizontal"
+                                Margin="329,5,0,0">
+            <Button Content="Valider"
+                                Foreground="White"
+                                FontWeight="Medium"
+                                FontSize="14"
+                                Click="btnValider_Click" RenderTransformOrigin="1.92,0.793">
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="TextElement.FontFamily" Value="Fonts/#Dosis"/>
+                        <Setter Property="Background" Value="#FE6584"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF4C70"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                                            CornerRadius="12"
+                                            Background="{TemplateBinding Background}">
+
+                            <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+        </StackPanel>
+
+
     </Grid>
 </Window>

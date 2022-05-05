@@ -115,6 +115,7 @@ namespace GsbRapports
             List<Rapport> lst = JsonConvert.DeserializeObject<List<Rapport>>(rapports);
 
 
+
             //string ficher = "Fichier_exporte/rapports.xml";
             FileStream fichier = new FileStream("Fichier_exporte/rapports.xml", FileMode.Create);
             XmlSerializer x = new XmlSerializer(lst.GetType());
