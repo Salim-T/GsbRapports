@@ -77,6 +77,9 @@
     <Compile Include="VoirFamillesWindow.xaml.cs">
       <DependentUpon>VoirFamillesWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VoirVisiteur.xaml.cs">
+      <DependentUpon>VoirVisiteur.xaml</DependentUpon>
+    </Compile>
     <Page Include="ajoutFamilleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -110,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="VoirFamillesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VoirVisiteur.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

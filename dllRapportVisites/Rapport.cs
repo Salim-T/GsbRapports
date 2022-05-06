@@ -20,7 +20,11 @@ namespace dllRapportVisites
         public string prenomMedecin { get; set; }
 
         public string concatNomPrenomMedecin { get { return this.nomMedecin + " " + this.prenomMedecin; }}
-        public Rapport(string motif, string bilan, DateTime date, string nomVisiteur, string prenomVisiteur, string nomMedecin, string prenomMedecin)
+        public Rapport()
+        {
+
+        }
+            public Rapport(string motif, string bilan, DateTime date, string nomVisiteur, string prenomVisiteur, string nomMedecin, string prenomMedecin)
         {
             this.motif = motif;
             this.bilan = bilan;

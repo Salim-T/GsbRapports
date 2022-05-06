@@ -37,7 +37,7 @@ namespace GsbRapports
             this.laSecretaire = new Secretaire();
 
             this.DckMenu.Visibility= Visibility.Hidden;
-            this.imgLogo.Visibility = Visibility.Hidden;
+            this.imgLogo.Visibility = Visibility.Visible;
             this.txtBonjour.Visibility = Visibility.Hidden; 
 
         }

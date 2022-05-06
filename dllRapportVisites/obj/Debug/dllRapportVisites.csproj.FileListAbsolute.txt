@@ -16,3 +16,9 @@ C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\d
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.dll
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.pdb
 C:\Users\Salim\Desktop\greta\AP\gsbGit\GsbRapports\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
+C:\Users\conti\Desktop\miss\dllRapportVisites\bin\Debug\dllRapportVisites.dll
+C:\Users\conti\Desktop\miss\dllRapportVisites\bin\Debug\dllRapportVisites.pdb
+C:\Users\conti\Desktop\miss\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.AssemblyReference.cache
+C:\Users\conti\Desktop\miss\dllRapportVisites\obj\Debug\dllRapportVisites.csproj.CoreCompileInputs.cache
+C:\Users\conti\Desktop\miss\dllRapportVisites\obj\Debug\dllRapportVisites.dll
+C:\Users\conti\Desktop\miss\dllRapportVisites\obj\Debug\dllRapportVisites.pdb

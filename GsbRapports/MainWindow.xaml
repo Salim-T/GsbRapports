@@ -30,7 +30,7 @@
                     <MenuItem Header="_Ajouter" Click="MenuItem_Click_3"/>
                     <MenuItem Header="_Modifier"  Click="MenuItem_Click_4"/>
                     <MenuItem Header="_Gerer les rapports" Click="MenuItem_Click5"/>
-                    
+
                 </MenuItem>
 
             </Menu>
@@ -38,7 +38,7 @@
 
         </DockPanel>
         <TextBox x:Name="txtBonjour" Width="150" Height="30" Margin="50,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FFADE693"/>
-        <StackPanel  Orientation ="Horizontal" Margin="5,138,5,0" Height="267" VerticalAlignment="Top" >
+        <StackPanel  Orientation ="Horizontal" Margin="5,121,5,0" Height="267" VerticalAlignment="Top" >
             <StackPanel Height="100" Margin="0" x:Name="stPanel">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="Login" Margin="20,0,0,0"/>

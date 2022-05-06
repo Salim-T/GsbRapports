@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 using dllRapportVisites;
 using Newtonsoft.Json;
 using System.Collections.Specialized;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace GsbRapports
 {
@@ -45,23 +47,23 @@ namespace GsbRapports
 
         private void valider_Click(object sender, RoutedEventArgs e)
         {
-            try 
+            try
             {
-            string date1 = dtpDate1.Text;
-            string date2 = dtpDate2.Text;
+                string date1 = dtpDate1.Text;
+                string date2 = dtpDate2.Text;
 
-            bool ok = true;
+                bool ok = true;
 
-            if (date1 == "")
-            {
-                ok = false;
-                erreurDate1.Text = "Veuillez entrer une date valide";
-            }
-            if (date1 == "")
-            {
-                ok = false;
-                erreurDate2.Text = "Veuillez entrer une date valide";
-            }
+                if (date1 == "")
+                {
+                    ok = false;
+                    erreurDate1.Text = "Veuillez entrer une date valide";
+                }
+                if (date1 == "")
+                {
+                    ok = false;
+                    erreurDate2.Text = "Veuillez entrer une date valide";
+                }
 
                 if (ok)
                 {
@@ -86,6 +88,43 @@ namespace GsbRapports
                 if (ex.Response is HttpWebResponse)
                     MessageBox.Show(((HttpWebResponse)ex.Response).StatusCode.ToString());
             }
+
+
         }
+       
+        private void exportationXml_Click(object sender, RoutedEventArgs e)
+        {
+            try{
+                Visiteur v = (Visiteur)cmbVisiteurs.SelectedItem; //visiteur selectionné dans la liste
+                string idVisiteur = v.id;//recupere l'id du visiteur selectionné
+                string date1 = dtpDate1.Text;
+                string date2 = dtpDate2.Text;
+                DateTime dTime = Convert.ToDateTime(date1);
+                string dateTime1 = dTime.ToString("yyyy-MM-dd");
+                DateTime dTime2 = Convert.ToDateTime(date2);
+                string dateTime2 = dTime2.ToString("yyyy-MM-dd");
+                string urlrapport = this.site + "rapports?ticket=" + this.laSecretaire.getHashTicketMdp() + "&idVisiteur=" + idVisiteur + "&dateDebut=" + dateTime1 + "&dateFin=" + dateTime2;
+                string reponse = this.wb.DownloadString(urlrapport);
+                dynamic r = JsonConvert.DeserializeObject(reponse);
+                string rapports = r.rapports.ToString();
+                string ticket = r.ticket;
+                List<Rapport> lst = JsonConvert.DeserializeObject<List<Rapport>>(rapports);
+
+            
+                //string ficher = "Fichier_exporte/rapports.xml";
+                FileStream fichier = new FileStream("Fichier_exporte/rapports_"+ DateTime.Now.ToString("dd") +"-"+ DateTime.Now.ToString("MM") +"-"+ DateTime.Now.ToString("yyyy") + ".xml", FileMode.Create);
+                XmlSerializer x = new XmlSerializer(lst.GetType());
+                x.Serialize(fichier, lst);
+                MessageBox.Show("Fichier exporté");
+                Close();
+            }
+            catch(Exception ex){
+                MessageBox.Show(ex.Message);
+            }
+
+
+        }
+
+            
     }
 }

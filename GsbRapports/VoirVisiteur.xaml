@@ -1,0 +1,19 @@
+﻿<Window x:Class="GsbRapports.VoirVisiteur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GsbRapports"
+        mc:Ignorable="d"
+        Title="VoirVisiteur" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="129*"/>
+            <ColumnDefinition Width="665*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dtgVsiteur" Height="200" Grid.Column="1" Margin="49,57,75,177" />
+        <Button x:Name="ButtonAjout" Content="Ajouter un Visiteur"  Margin="82,295,467,110" Grid.Column="1" Click="ButtonAjout_Click"/>
+        <Button x:Name="ButtonModifie" Content="Modifier un Visiteur"  Margin="245,295,303,110" Grid.Column="1" Click="ButtonModifie_Click"/>
+        <Button x:Name="ButtonAnnuler" Content="Annuler"  Margin="430,295,119,110" Grid.Column="1" Click="ButtonAnnuler_Click"/>
+    </Grid>
+</Window>

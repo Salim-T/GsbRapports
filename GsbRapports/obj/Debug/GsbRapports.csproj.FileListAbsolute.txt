@@ -146,3 +146,5 @@ C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\GsbRapports.csproj.CoreCompile
 C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\GsbRapports.csproj.CopyComplete
 C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\GsbRapports.exe
 C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\GsbRapports.pdb
+C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\VoirVisiteur.g.cs
+C:\Users\conti\Desktop\miss\GsbRapports\obj\Debug\VoirVisiteur.baml
