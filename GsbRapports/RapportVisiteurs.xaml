@@ -28,5 +28,6 @@
                     Binding="{Binding bilan}" Foreground="BLACK"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="Exporter en XML" HorizontalAlignment="Left" Margin="41,358,0,0" VerticalAlignment="Top" Height="32" Width="169" Click="exportationXml_Click"/>
     </Grid>
 </Window>

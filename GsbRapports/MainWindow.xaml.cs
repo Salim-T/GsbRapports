@@ -37,7 +37,7 @@ namespace GsbRapports
             this.laSecretaire = new Secretaire();
 
             this.DckMenu.Visibility= Visibility.Hidden;
-            this.imgLogo.Visibility = Visibility.Hidden;
+            this.imgLogo.Visibility = Visibility.Visible;
             this.txtBonjour.Visibility = Visibility.Hidden; 
 
         }
@@ -128,10 +128,18 @@ namespace GsbRapports
             w.Show();
         }
 
+        private void MenuItem_Click6(object sender, RoutedEventArgs e)
+        {
+            VoirVisiteur w = new VoirVisiteur(this.laSecretaire, this.wb, this.site);
+            w.Show();
+        }
+
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
             AjoutVisiteurWindow w = new AjoutVisiteurWindow(this.laSecretaire, this.wb, this.site);
             w.Show();
         }
+
+        
     }
 }
