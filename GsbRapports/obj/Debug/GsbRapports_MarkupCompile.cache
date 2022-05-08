@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 C:\Users\conti\Desktop\miss\GsbRapports\App.xaml
+<<<<<<< Updated upstream
 82136453407
 
 12-957881180
 16297887249
 ajoutFamilleWindow.xaml;AjoutVisiteurWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;RapportVisiteurs.xaml;VoirFamillesWindow.xaml;VoirVisiteur.xaml;
+=======
+7-1622208434
 
-False
+122037717710
+16-491224211
+ajoutFamilleWindow.xaml;AjoutVisiteurWindow.xaml;MainWindow.xaml;majFamilleWindow.xaml;modifierVisiteursWindow.xaml;RapportVisiteurs.xaml;VoirFamillesWindow.xaml;
+>>>>>>> Stashed changes
+
+True
 
