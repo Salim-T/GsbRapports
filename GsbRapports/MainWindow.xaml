@@ -26,9 +26,10 @@
                     <MenuItem Header="_Modifier" Click="MenuItem_Click_1" />
                     <MenuItem Header="_Ajouter" Click="MenuItem_Click_2" />
                 </MenuItem>
-                <MenuItem Header="_visiteurs">
-                    <MenuItem Header="_Ajouter" Click="MenuItem_Click_3"/>
-                    <MenuItem Header="_Modifier"  Click="MenuItem_Click_4"/>
+                <MenuItem Header="_visiteurs" Click="MenuItem_Click_5">
+                    <MenuItem Header="_Voir Visiteur" Click="MenuItem_Click_6"/>
+                    <MenuItem Header="_Ajouter Visiteur" Click="MenuItem_Click_3"/>
+                    <MenuItem Header="_Modifier Visiteur"  Click="MenuItem_Click_4"/>
                     <MenuItem Header="_Gerer les rapports" Click="MenuItem_Click5"/>
 
                 </MenuItem>

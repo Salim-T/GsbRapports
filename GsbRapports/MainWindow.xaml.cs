@@ -128,10 +128,21 @@ namespace GsbRapports
             w.Show();
         }
 
+        private void MenuItem_Click_6(object sender, RoutedEventArgs e)
+        {
+            VoirVisiteur w = new VoirVisiteur(this.laSecretaire, this.wb, this.site);
+            w.Show();
+        }
+
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
             AjoutVisiteurWindow w = new AjoutVisiteurWindow(this.laSecretaire, this.wb, this.site);
             w.Show();
+        }
+
+        private void MenuItem_Click_5(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

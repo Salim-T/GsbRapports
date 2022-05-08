@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Net;
+using dllRapportVisites;
+using Newtonsoft.Json;
 
 namespace GsbRapports
 {
@@ -19,9 +22,23 @@ namespace GsbRapports
     /// </summary>
     public partial class VoirVisiteur : Window
     {
-        public VoirVisiteur()
+        private WebClient wb;
+        private string site;
+        private Secretaire laSecretaire;
+        public VoirVisiteur(Secretaire laSecretaire, WebClient wb, string site)
         {
             InitializeComponent();
+            this.laSecretaire = laSecretaire;
+            this.site = site;
+            this.wb = wb;
+            string url = this.site + "visiteurs?ticket=" + this.laSecretaire.getHashTicketMdp(); //retourne le mdp hashé
+            string reponse = this.wb.DownloadString(url);
+            dynamic d = JsonConvert.DeserializeObject(reponse);
+            string visiteurs = d.familles.ToString();
+            string ticket = d.ticket;
+            this.laSecretaire.ticket = ticket;
+            List<Visiteur> l = JsonConvert.DeserializeObject<List<Visiteur>>(visiteurs);
+            this.dtgVsiteur.ItemsSource = l;
         }
 
         private void ButtonAjout_Click(object sender, RoutedEventArgs e)
