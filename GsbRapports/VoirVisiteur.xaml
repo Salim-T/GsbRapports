@@ -5,15 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GsbRapports"
         mc:Ignorable="d"
-        Title="VoirVisiteur" Height="450" Width="800">
-    <Grid>
+        Title="Voir Visiteurs" Height="450" Width="800">
+    <Grid  Height="450" Width="800">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="161*"/>
+            <RowDefinition Height="64*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="129*"/>
             <ColumnDefinition Width="665*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid x:Name="dtgVsiteur" Height="200" Grid.Column="1" Margin="49,57,75,177" />
-        <Button x:Name="ButtonAjout" Content="Ajouter un Visiteur"  Margin="82,295,467,110" Grid.Column="1" Click="ButtonAjout_Click"/>
-        <Button x:Name="ButtonModifie" Content="Modifier un Visiteur"  Margin="245,295,303,110" Grid.Column="1" Click="ButtonModifie_Click"/>
-        <Button x:Name="ButtonAnnuler" Content="Annuler"  Margin="430,295,119,110" Grid.Column="1" Click="ButtonAnnuler_Click"/>
+        <DataGrid x:Name="dtgVsiteur" Height="200" AutoGenerateColumns="False" Margin="10,68,46,54"   Grid.Column="1" >
+        <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom"  Width="105" 
+                    Binding="{Binding nom}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="Prenom"  Width="105" 
+                    Binding="{Binding prenom}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="Adresse"  Width="205" 
+                    Binding="{Binding adresse}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="ville"  Width="105" 
+                    Binding="{Binding ville}" Foreground="BLACK"/>
+                <DataGridTextColumn Header="date d'embauche"  Width="205" 
+                    Binding="{Binding dateEmbauche}" Foreground="BLACK"/>
+            
+                
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <Button x:Name="ButtonAjout" Content="Ajouter un Visiteur"  Margin="68,301,481,115" Grid.Column="1" Click="MenuItem_Click_3" Grid.RowSpan="2"/>
+        <Button x:Name="ButtonModifie" Content="Modifier un Visiteur"  Margin="243,302,305,115" Grid.Column="1" Click="MenuItem_Click_4" Grid.RowSpan="2"/>
+        <Button x:Name="ButtonAnnuler" Content="Annuler"  Margin="430,302,119,115" Grid.Column="1" Click="ButtonAnnuler_Click" Grid.RowSpan="2"/>
     </Grid>
 </Window>

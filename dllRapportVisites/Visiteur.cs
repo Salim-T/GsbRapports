@@ -31,5 +31,6 @@ namespace dllRapportVisites
             this.dateEmbauche = date;
 
         }
+      
     }
 }

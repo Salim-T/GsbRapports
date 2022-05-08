@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Net;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,9 +12,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Net;
 using dllRapportVisites;
 using Newtonsoft.Json;
+
 
 namespace GsbRapports
 {
@@ -34,26 +35,30 @@ namespace GsbRapports
             string url = this.site + "visiteurs?ticket=" + this.laSecretaire.getHashTicketMdp(); //retourne le mdp hashé
             string reponse = this.wb.DownloadString(url);
             dynamic d = JsonConvert.DeserializeObject(reponse);
-            string visiteurs = d.familles.ToString();
+            string visiteurs = d.visiteurs.ToString();
             string ticket = d.ticket;
             this.laSecretaire.ticket = ticket;
             List<Visiteur> l = JsonConvert.DeserializeObject<List<Visiteur>>(visiteurs);
             this.dtgVsiteur.ItemsSource = l;
         }
 
-        private void ButtonAjout_Click(object sender, RoutedEventArgs e)
+        private void MenuItem_Click_3(object sender, RoutedEventArgs e)
         {
-
+            AjoutVisiteurWindow w = new AjoutVisiteurWindow(this.laSecretaire, this.wb, this.site);
+            w.Show();
         }
 
-        private void ButtonModifie_Click(object sender, RoutedEventArgs e)
+        private void MenuItem_Click_4(object sender, RoutedEventArgs e)
         {
-
+            modifierVisiteursWindow w = new modifierVisiteursWindow(this.laSecretaire, this.wb, this.site);
+            w.Show();
         }
 
         private void ButtonAnnuler_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
+
+        
     }
 }

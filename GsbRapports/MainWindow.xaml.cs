@@ -128,7 +128,7 @@ namespace GsbRapports
             w.Show();
         }
 
-        private void MenuItem_Click_6(object sender, RoutedEventArgs e)
+        private void MenuItem_Click6(object sender, RoutedEventArgs e)
         {
             VoirVisiteur w = new VoirVisiteur(this.laSecretaire, this.wb, this.site);
             w.Show();
@@ -140,9 +140,6 @@ namespace GsbRapports
             w.Show();
         }
 
-        private void MenuItem_Click_5(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }
