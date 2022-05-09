@@ -1,0 +1,543 @@
+<?xml version="1.0"?>
+<ArrayOfRapport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-06-06T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BLACHERE</nomMedecin>
+    <prenomMedecin>Hypolite</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>A revoir assez rapidement</bilan>
+    <date>2021-06-07T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>GINOUX</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-06-09T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>CANAVESE</nomMedecin>
+    <prenomMedecin>Fatima</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-06-09T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>RUSSO</nomMedecin>
+    <prenomMedecin>Jimmy</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-06-10T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>CHABERT</nomMedecin>
+    <prenomMedecin>Alizée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Sur sa réserve</bilan>
+    <date>2021-06-11T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>LUCAS</nomMedecin>
+    <prenomMedecin>Hamed</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Demande à me revoir dans un mois</bilan>
+    <date>2021-06-15T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>REYMOND</nomMedecin>
+    <prenomMedecin>Aurèle</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>RAS</bilan>
+    <date>2021-06-23T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BARONI</nomMedecin>
+    <prenomMedecin>Anne-Lucie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2021-06-25T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>OLLIER</nomMedecin>
+    <prenomMedecin>Rosalie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Demande à me revoir dans un mois</bilan>
+    <date>2021-06-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>SARRAZIN</nomMedecin>
+    <prenomMedecin>André</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-06-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>MORI</nomMedecin>
+    <prenomMedecin>Précilia</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>RAS</bilan>
+    <date>2021-06-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BERTRAND</nomMedecin>
+    <prenomMedecin>Julienne</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas en confiance</bilan>
+    <date>2021-06-29T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BAYLE</nomMedecin>
+    <prenomMedecin>Jules</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2021-06-30T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>GRAZIANI</nomMedecin>
+    <prenomMedecin>Martin</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-07-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>RIZZO</nomMedecin>
+    <prenomMedecin>Alice</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Visite positive</bilan>
+    <date>2021-07-04T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>MERCIER</nomMedecin>
+    <prenomMedecin>Adrien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-09-10T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>ALCARAZ</nomMedecin>
+    <prenomMedecin>Andrew</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>A revoir assez rapidement</bilan>
+    <date>2021-09-22T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>CAMOIN</nomMedecin>
+    <prenomMedecin>Aline</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Pas en confiance</bilan>
+    <date>2021-09-24T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>COSTA</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-09-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BURLE</nomMedecin>
+    <prenomMedecin>Dominique</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2021-09-28T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>OLIVIERI</nomMedecin>
+    <prenomMedecin>Aurèle</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>RAS</bilan>
+    <date>2021-10-02T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>ARQUIER</nomMedecin>
+    <prenomMedecin>Julie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2021-10-05T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DUPONT</nomMedecin>
+    <prenomMedecin>Cristophe</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Sur sa réserve</bilan>
+    <date>2021-10-14T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>VERDIER</nomMedecin>
+    <prenomMedecin>Irénée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-10-15T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BERTRAND</nomMedecin>
+    <prenomMedecin>Julienne</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-10-15T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>RAMOS</nomMedecin>
+    <prenomMedecin>Julien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Visite positive</bilan>
+    <date>2021-10-17T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>ROUVIER</nomMedecin>
+    <prenomMedecin>Reissa</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>RAS</bilan>
+    <date>2021-10-18T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>ALI</nomMedecin>
+    <prenomMedecin>Bernard</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Très intéressé par les produits présentés</bilan>
+    <date>2021-10-24T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DUMAS</nomMedecin>
+    <prenomMedecin>Amélie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Visite positive</bilan>
+    <date>2021-10-29T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DARMON</nomMedecin>
+    <prenomMedecin>Précilia</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-11-03T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>SANTELLI</nomMedecin>
+    <prenomMedecin>Alice</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-11-05T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>CARBONNEL</nomMedecin>
+    <prenomMedecin>Amélie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Peu bavard</bilan>
+    <date>2021-12-01T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BENVENUTI</nomMedecin>
+    <prenomMedecin>Patrick</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2021-12-06T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>GUERIN</nomMedecin>
+    <prenomMedecin>Béatrice</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2021-12-10T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>PORTE</nomMedecin>
+    <prenomMedecin>Adrien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2021-12-12T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>GIORDANO</nomMedecin>
+    <prenomMedecin>Martial</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Sur sa réserve</bilan>
+    <date>2021-12-23T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DELESTRADE</nomMedecin>
+    <prenomMedecin>Adrien</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2021-12-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DALMAS</nomMedecin>
+    <prenomMedecin>Charles-Edouard</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2022-01-16T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BAILLE</nomMedecin>
+    <prenomMedecin>Aude</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Trop pressé</bilan>
+    <date>2022-01-17T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DUPRE</nomMedecin>
+    <prenomMedecin>Mohammed</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2022-01-21T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>RICHAUD</nomMedecin>
+    <prenomMedecin>Hamed</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2022-01-27T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>MAGNAN</nomMedecin>
+    <prenomMedecin>Hamed</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Jeune médecin découvrant les visiteurs</bilan>
+    <date>2022-01-29T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>LACOMBE</nomMedecin>
+    <prenomMedecin>Vénus</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Prise de contact</motif>
+    <bilan>Visite positive</bilan>
+    <date>2022-01-31T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>CHAFFARD</nomMedecin>
+    <prenomMedecin>Précilia</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Très aimable maintenir un contact régulier</bilan>
+    <date>2022-02-01T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>TREGLIA</nomMedecin>
+    <prenomMedecin>Anne-Jeanne</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Pas intéressé du tout</bilan>
+    <date>2022-02-01T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>IBANEZ</nomMedecin>
+    <prenomMedecin>Andrée</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Visite positive</bilan>
+    <date>2022-02-05T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>REYNIER</nomMedecin>
+    <prenomMedecin>Alain</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2022-02-05T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>PASQUALINI</nomMedecin>
+    <prenomMedecin>Roby</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Demande du médecin</motif>
+    <bilan>RAS</bilan>
+    <date>2022-02-15T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>RUIZ</nomMedecin>
+    <prenomMedecin>Anne-Marie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>RAS</bilan>
+    <date>2022-02-20T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>BRUNET</nomMedecin>
+    <prenomMedecin>Jérémie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>A beaucoup appécié notre rencontre</bilan>
+    <date>2022-02-26T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>PASTORE</nomMedecin>
+    <prenomMedecin>Annie</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Installation nouvelle</motif>
+    <bilan>Pas très aimable</bilan>
+    <date>2022-03-14T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>DOMERGUE</nomMedecin>
+    <prenomMedecin>Bernard</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>recommandation de confrère</motif>
+    <bilan>Peu intéressé</bilan>
+    <date>2022-03-24T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>MORALES</nomMedecin>
+    <prenomMedecin>Précilia</prenomMedecin>
+  </Rapport>
+  <Rapport>
+    <motif>Visite annuelle</motif>
+    <bilan>Visite positive</bilan>
+    <date>2022-03-25T00:00:00</date>
+    <idMedecin>0</idMedecin>
+    <nomVisiteur>Cottin</nomVisiteur>
+    <prenomVisiteur>Vincenne</prenomVisiteur>
+    <nomMedecin>AVON</nomMedecin>
+    <prenomMedecin>Aurèle</prenomMedecin>
+  </Rapport>
+</ArrayOfRapport>

@@ -143,6 +143,7 @@ namespace GsbRapports
                     string ticket = UnicodeEncoding.UTF8.GetString(tabByte);
                     this.laSecretaire.ticket = ticket.Substring(2);// anti slash n 
                     MessageBox.Show("Ajout d'un visiteur effectué");
+                    Close();
                 }
 
 
