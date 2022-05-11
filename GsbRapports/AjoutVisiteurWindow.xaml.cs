@@ -38,6 +38,7 @@ namespace GsbRapports
 
         private void btnValider_Click1(object sender, RoutedEventArgs e)
         {
+           //push final
 
             try
             {
